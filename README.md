@@ -4,6 +4,12 @@ A comprehensive SQL data cleaning project demonstrating real-world techniques to
 
 ---
 
+> 📂 **Project Navigation:**
+> - **Part 1 (Current Guide):** [Data Cleaning Tutorial (4 Steps)](#️-the-4-steps-of-data-cleaning)
+> - **Part 2:** [Exploratory Data Analysis (EDA) Study Guide ➔](./EDA/README.md)
+
+---
+
 ## 📌 Project Overview
 
 Raw real-world datasets often contain duplicates, typos, inconsistent categories, unformatted dates, and null values. This project showcases the standard **4-step data cleaning pipeline** in MySQL using window functions, string manipulation, self-joins for data imputation, and schema modifications.
