@@ -161,15 +161,24 @@ DROP COLUMN row_num;
 
 ---
 
-## 🚀 How to Run the Script
+## 🚀 How to Run the Project
 
-1. Open **MySQL Workbench** or your preferred database client.
-2. Ensure you have the `layoffs` table loaded.
-3. Run the SQL script sequentially:
-   ```sql
-   SOURCE MySQL_data cleaning_tutorial.sql;
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/vera0406/Mysql-data-cleaning-tutorial.git
+   cd Mysql-data-cleaning-tutorial
    ```
-4. Query the final clean dataset:
+
+2. **Import the Dataset:**
+   - Open **MySQL Workbench** and connect to your database instance.
+   - Create a database schema (e.g., `CREATE DATABASE world_layoffs; USE world_layoffs;`).
+   - Right-click **Tables** in the schema navigator and select **Table Data Import Wizard**.
+   - Browse to `layoffs.csv` in this repository and import it into a table named `layoffs`.
+
+3. **Run the Cleaning Script:**
+   - Open and execute `MySQL_data cleaning_tutorial.sql` sequentially.
+
+4. **Query the Cleaned Data:**
    ```sql
    SELECT * FROM layoffs_staging2;
    ```
